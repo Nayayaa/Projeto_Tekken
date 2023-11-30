@@ -23,7 +23,7 @@ personagens.forEach((personagem) => {
         
         // passo 2 - alterar a imagem do personagem grande
         const idPersonagem = personagem.attributes.id.value;
-        imagemPersonagemGrande.src = `./src/imagens/2${idPersonagem}.png`;
+        imagemPersonagemGrande.src = `src/imagens/2${idPersonagem}.png`;
 
         // passo 3 - alterar o nome do personagem grande
         const nomePersonagem = document.getElementById('nome-personagem');
